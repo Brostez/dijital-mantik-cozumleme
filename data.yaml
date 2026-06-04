@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['AND', 'NAND', 'NOR', 'NOT', 'OR', 'XNOR', 'XOR']
+
+roboflow:
+  workspace: lab113
+  project: logic-jnlrr
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lab113/logic-jnlrr/dataset/1
